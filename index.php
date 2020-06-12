@@ -1,1 +1,1 @@
-<?php phpinfo() ?>yuhgughughugugu
+<?php phpinfo() ?>
