@@ -1,0 +1,4 @@
+article {display:block;}
+article img {width:100%;}
+article ul {width:100%; margin:0; padding:0;}
+article ul li {width:50%; float:left; list-style:none; line-height:0;}
