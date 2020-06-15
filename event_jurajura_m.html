@@ -1,3 +1,11 @@
+{ # header }
+
+
+{? date('Y-m-d H:i:s') < "2020-06-17 00:00:00" }
+
+진행 전 입니다.
+
+{: date('Y-m-d H:i:s') >= "2020-06-17 00:00:00" && date('Y-m-d H:i:s') < "2020-06-22 18:00:00" }
 <section>
     <article>
         <img src="http://hansando.godohosting.com/yamtable/images/event/jurajura/mobile/jurajura_m_01.jpg">
@@ -71,3 +79,14 @@
         <img src="http://hansando.godohosting.com/yamtable/images/event/jurajura/mobile/jurajura_m_15.jpg">
     </article>
 </section>
+
+{: date('Y-m-d H:i:s') >= "2020-06-22 18:00:00" }
+
+<script>
+	alert('이벤트가 종료됐습니다');
+</script>
+
+{:}
+종료
+
+{/}
