@@ -3,7 +3,11 @@
 
 {? date('Y-m-d H:i:s') < "2020-06-17 00:00:00" }
 
-진행 전 입니다.
+<script>
+	alert('2020년 06월 17일부터 오픈됩니다.');
+    location.href='yamtable.com';
+</script>
+
 
 {: date('Y-m-d H:i:s') >= "2020-06-17 00:00:00" && date('Y-m-d H:i:s') < "2020-06-22 18:00:00" }
 <section>
@@ -82,8 +86,10 @@
 
 {: date('Y-m-d H:i:s') >= "2020-06-22 18:00:00" }
 
+
 <script>
 	alert('이벤트가 종료됐습니다');
+    location.href='yamtable.com';
 </script>
 
 {:}
