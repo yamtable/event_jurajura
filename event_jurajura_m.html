@@ -1,15 +1,7 @@
 { # header }
 
 
-{? date('Y-m-d H:i:s') < "2020-06-17 00:00:00" }
-
-<script>
-	alert('2020년 06월 17일부터 오픈됩니다.');
-    location.href='yamtable.com';
-</script>
-
-
-{: date('Y-m-d H:i:s') >= "2020-06-17 00:00:00" && date('Y-m-d H:i:s') < "2020-06-22 18:00:00" }
+{? date('Y-m-d H:i:s') >= "2020-06-17 00:00:00" && date('Y-m-d H:i:s') < "2020-06-22 18:00:00" }
 <section>
     <article>
         <img src="http://hansando.godohosting.com/yamtable/images/event/jurajura/mobile/jurajura_m_01.jpg">
@@ -88,11 +80,14 @@
 
 
 <script>
-	alert('이벤트가 종료됐습니다');
-    location.href='yamtable.com';
+	alert("   아쉽게도,\n   주라주라 1+1 이벤트는\n   2020-06-22 18:00에 종료됐습니다");
+    location.href='http://yamtable.com';
 </script>
 
 {:}
-종료
+
+<script>
+    location.href='http://yamtable.com';
+</script>
 
 {/}
