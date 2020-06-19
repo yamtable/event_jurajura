@@ -1,8 +1,14 @@
+{*** 주라주라 이벤트 | event/jurajura.php ***}
 { # header }
 
+<style>
+	/* 2020.06.17 - beaver : 와.. 내가 이런식으로 일 하게 되다니..ㅠㅠ */
+	#header_wrap { background:#fff !important; }
+	.header_section01 { background:#fff !important; }
+</style>
 
 {? date('Y-m-d H:i:s') >= "2020-06-17 00:00:00" && date('Y-m-d H:i:s') < "2020-06-22 18:00:00" }
-<section>
+<div class="container">
     <article>
         <img src="http://hansando.godohosting.com/yamtable/images/event/jurajura/mobile/jurajura_m_01.jpg">
     </article>
@@ -40,7 +46,7 @@
         </a>
     </article>
     <article><!-- 국내산 고등어 -->
-        <a href="http://yamtable.com/goods/goods_view.php?goodsNo=1000000165">
+        <a href="http://yamtable.com/goods/goods_view.php?goodsNo=1000000115">
             <img src="http://hansando.godohosting.com/yamtable/images/event/jurajura/mobile/jurajura_m_09.jpg">
         </a>
     </article>
@@ -79,7 +85,7 @@
     <article>
         <img src="http://hansando.godohosting.com/yamtable/images/event/jurajura/mobile/jurajura_m_16.jpg">
     </article>
-</section>
+</div>
 
 {: date('Y-m-d H:i:s') >= "2020-06-22 18:00:00" }
 
@@ -91,8 +97,7 @@
 
 {:}
 
-<script>
-    location.href='http://yamtable.com';
-</script>
 
 {/}
+
+{ # footer }
